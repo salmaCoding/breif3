@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+    <title>Contact</title>
+</head>
+<body>
+   
+   <nav class="navbar">
+      <div class="navbar-container">
+          <div class="logo">
+             <img src="images/logo2.png" width="200px" height="200px"> 
+          </div>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="magazines.html">Magazines</a></li>
+            <li><a href="stores.html">Store</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <button onclick="openPopUp()" class="btn">Sign in</button>       
+  
+             </ul>
+          <div class="burger-menu">&#9776;</div>
+      </div>
+  </nav>
+    <section class="fag-breadcrumb-area">
+                 <div class="breadcromb-box">
+                    <h3>Contact</h3>
+                    <ul>
+                       <li><i class="fa fa-home"></i></li>
+                       <li><a href="index.html">Home</a></li>
+                       <li><i class="fa fa-angle-right"></i></li>
+                       <li>Contact</li>
+                    </ul>
+                 </div>
+     </section>
+     <div class="containerF">
+      <div class="contact-box">
+         <div class="left"></div>
+         <div class="right">
+            <h2>Contact Us</h2>
+            <input type="text" class="field" placeholder="Your Name">
+            <input type="text" class="field" placeholder="Your Email">
+            <input type="text" class="field" placeholder="Phone">
+            <textarea placeholder="Message" class="field"></textarea>
+            <button class="btn">Send</button>
+         </div>
+      </div>
+   </div>
+
+            <footer class="footerContent">
+               <p>Copyright &copy; 2023;Designed by <span class="Desiegner">salma</span></p>
+       
+           </footer>
+
+     <!-- ----------------------popup-------------------- - -->
+     <div class="form-popup" id="mypopup"> 
+      <div class="form-container">
+       <div class="cancel" onclick="closePopUp()">X</div>
+       <div class="form">
+         <input type="text" class="field" id="email" placeholder="Your Email">
+         <button id="buttonSend" class="btn">Send</button>
+        </div>
+      </div>
+    </div>
+   
+           <!-- ----------------------popup-------------------- - -->
+
+           
+
+           <script src="js/responsiveNav.js"></script>
+           <script  src="js/allowRead.js"></script>
+           <script  src="js/verfierEmail.js"></script></body>
+</html>
